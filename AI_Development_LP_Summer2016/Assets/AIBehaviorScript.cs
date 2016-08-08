@@ -17,11 +17,6 @@ public class AIBehaviorScript : MonoBehaviour {
     Vector3 closestPiUP = new Vector3(0, 0, 0); //The position of the pickup closest to this tank.
     GameObject Destination; //A GameObject called Destination that is determined near the end of the Update function.
     GameObject chosenPiUP;  //A GameObject to reference the pickup that is chosen as the Destination in a non-direct manner for ease.
-
-    // Use this for initialization
-    void Start () {
-	
-	}
 	
 	// Update is called once per frame
 	void Update () {
